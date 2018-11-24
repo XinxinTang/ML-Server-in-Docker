@@ -4,10 +4,10 @@
 ## Description
 
 Environments: 
-  Flask==0.10.1
-  pandas==0.22.0
-  tensorflow==1.6.0
-  rpy2==2.9.4
+  Flask==0.10.1;
+  pandas==0.22.0;
+  tensorflow==1.6.0;
+  rpy2==2.9.4;
   tzlocal
 
 1 Two machine learning models, one is built by Python with tensorflow, the other is built by R.
