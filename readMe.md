@@ -14,6 +14,7 @@ Environments:
 
 2 Flask loads these two models as a predictive service so that end-user can get a response from the target Machine Learning Model.
 
+![framework](https://github.com/XinxinTang/ML-Server-in-Docker-/blob/master/pics/Screen%20Shot%202018-11-24%20at%206.35.59%20PM.png)
 
 ## Installation
 
@@ -35,4 +36,4 @@ curl -X POST --header "Content-Type:application/json" -d '{"SepalLength": [5.1, 
 curl -X POST --header "Content-Type:application/json" -d '{"SepalLength": [5.1, 5.9],
 "SepalWidth": [3.3, 3.0], "PetalLength": [1.7, 4.2], "PetalWidth": [0.5, 1.5]}' 0.0.0.0:5000/r-iris/predict
 ```
-
+![Output](https://github.com/XinxinTang/ML-Server-in-Docker-/blob/master/pics/Screen%20Shot%202018-11-24%20at%206.37.33%20PM.png)
