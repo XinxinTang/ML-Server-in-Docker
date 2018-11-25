@@ -1,7 +1,8 @@
 # Multi-model unified system
 
-
 ## Description
+
+This is an application to invoke multiple models to make Machine Learning models as a product. 
 
 Environments: 
   Flask==0.10.1;
